@@ -1,0 +1,21 @@
+*{
+  text-align: center;
+}
+
+body{
+  background-color: black;
+}
+
+tr.h{
+  background-color: #ac2a2a;
+}
+
+tr.h h1{
+  text-align: center;
+  font-size: 28px;
+}
+td.e{
+  background-color: #ff7b7b;
+  vertical-align: middle;
+  color: white;
+}

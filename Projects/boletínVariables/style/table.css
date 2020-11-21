@@ -1,0 +1,43 @@
+.timetable, .timetable tr, .timetable th, .timetable td{
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.timetable td, .timetable tr{
+  padding: 5px 0px;
+  font-size: 9px;
+}
+
+.timetable th, .timetable .recreo{
+  background-color: rgb(170, 170, 170);
+}
+
+.timetable .pro{
+  background-color: rgb(209, 126, 241);
+}
+
+.timetable .acd{
+  background-color: rgb(247, 127, 127);
+}
+
+.timetable .hlc{
+  background-color: rgb(243, 171, 137);
+}
+
+.timetable .pmp{
+  background-color: rgb(125, 243, 125);
+}
+
+.timetable .eie{
+  background-color: rgb(122, 181, 236);
+}
+
+.timetable .dei{
+  background-color: rgb(248, 207, 119);
+}
+
+.timetable .sge{
+  background-color: rgb(230, 114, 158);
+}

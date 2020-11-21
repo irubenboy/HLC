@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+.main{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+}
+
+.main h1{
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 0 #dc9ce2, 4px 4px 0 #dc9ce2;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.main img{
+    width: 50%;
+    border-radius: 20px;
+}
+
+.main p{
+    width: 50%;
+    color: white;
+}
+
+.main .info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .error{
+    color: red;
+    text-shadow: none;
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-form input[type="submit"]:hover{
+    background-color: #dc9ce2;
+}
+
+.container-form .input-container{
+    position: relative;
+    padding: 15px 0px 0px;
+    margin-top: 10px;
+}
+
+.container-form .input-container input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid grey;
+    outline: 0;
+    font-size: 1.3rem;
+    color: grey;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.container-form .input-container input::placeholder {
+    color: transparent;
+}
+
+.container-form .input-container input:placeholder-shown ~ .container-form .input-container label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+
+.container-form .input-container label{
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: grey;
+}
+
+.container-form .input-container input:focus ~ label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9900cc;
+    font-weight:700;    
+}
+
+.container-form .input-container input:focus{
+    padding-bottom: 6px;  
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #9900cc, #dc9ce2);
+    border-image-slice: 1;
+}
+
+.container-form .input-container input:required{
+    box-shadow: none;
+}
+
+.container-form .submit{
+    display: flex;
+    justify-content: center;
+}
+.container-form input[type="submit"]{
+    position: relative;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    background-color: #d852e4;
+    border-radius: 14px;
+    border: none;
+    background-image: linear-gradient(to bottom, #9900cc, #da8ec9);
+}
+
+

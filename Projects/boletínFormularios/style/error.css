@@ -1,0 +1,22 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.error-container {
+    margin: 15px 0px;
+    padding:12px;
+    color: #D8000C;
+    background-color: #FFD2D2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100% ;
+}
+
+.error-container span{
+    margin: 10px 0px;
+}
+
+.error-container i {
+    margin: 10px 22px;
+    font-size:2em;
+    vertical-align:middle;
+}

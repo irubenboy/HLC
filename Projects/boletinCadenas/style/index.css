@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #000;
+}
+
+.container-exercises{
+  width: 60%;
+  margin: 0 auto;
+  padding: 15px 50px;
+  background-image: url("../img/fondo.jpg");
+}
+
+.container-exercises .header #title{
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 0 #dc9ce2, 4px 4px 0 #dc9ce2;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #333;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+}
+
+.container-exercises .header #subtitle{
+  color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.container-exercises .list-exercises .exercises .exercise{
+  margin: 60px 45px;
+  color: #000;
+}
+
+
+.container-exercises .list-exercises .exercises .exercise .btnCode, .container-exercises .list-exercises .exercises li .btnSolution{
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 1px 10px;
+  background: linear-gradient(180deg, #b865e8 0%, #5c3085 49%, #fb7474 50%, #ff0000 100%);
+  background-size: 1px 100px;
+  transition: all .3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container-exercises .list-exercises .exercises .exercise .btnCode:hover, .container-exercises .list-exercises .exercises li .btnSolution:hover{
+  background-position: 0 -50px;
+  transition: all .3s;
+}
+
+.container-exercises .list-exercises .exercises .exercise .contain-code{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-exercises .list-exercises .exercises .exercise .solution, .container-exercises .list-exercises .exercises li .code{
+  border: 1px solid black;
+  padding: 20px;
+  background: #3b3939;
+  color: #fff;
+  font-family: Lucida Console;
+  font-size: 10px;
+  display: none;
+}
+
+.contain-code .list-exercises .exercises .exercise .solution > *{
+  color: #fff;
+}
+
+.container-exercises .list-exercises .exercises .exercise .code span{
+  font-family: Lucida Console;
+}
