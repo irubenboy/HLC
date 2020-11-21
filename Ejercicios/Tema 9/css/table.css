@@ -1,0 +1,46 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+table {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table tr td, table th {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+
+table tr:nth-child(odd){background-color: rgb(215, 146, 218);}
+
+table tr:nth-child(even){background-color: #fff;}
+
+table tr:hover {background-color: rgb(198, 10, 255);}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(213, 18, 219);
+  color: white;
+}
+
+.empty{
+  position: absolute;
+  left: 20%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 1.3em;
+  margin-top: 20px;
+}
+
+table td a img {
+  width: 20%;
+  height: 15%;
+  margin: 10px 22px;
+  font-size:2em;
+  vertical-align:middle;
+}
