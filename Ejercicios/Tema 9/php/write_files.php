@@ -15,7 +15,7 @@
                     array_push($rights, "El fichero " . ($j + 1) . " -> " . ERRNO_6);
                 }
             }
-
+            fclose('../uploads/'.$files[$j]);
         }
     }
 ?>
