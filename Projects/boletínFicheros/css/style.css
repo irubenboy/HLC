@@ -1,0 +1,13 @@
+.container-btn button{
+    position: relative;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    background-color: #d852e4;
+    border-radius: 14px;
+    border: none;
+    background-image: linear-gradient(to bottom, #9900cc, #da8ec9);
+}
